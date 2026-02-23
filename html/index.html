@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Bennet RP System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="nui-container" style="display:none">
+<img src="Foto.png" class="bg">
+<div class="center">
+<h1>Bennetlolll</h1>
+<h2>ProfieAngel</h2>
+<p>Owner | Co.Owner</p>
+
+<input type="text" id="firstname" placeholder="Vorname">
+<input type="text" id="lastname" placeholder="Nachname">
+<input type="number" id="age" placeholder="Alter">
+
+<select id="gender">
+<option value="male">Männlich</option>
+<option value="female">Weiblich</option>
+</select>
+
+<button onclick="createCharacter()">Weiter</button>
+</div>
+
+<div class="music">
+<button onclick="playMusic()">Play</button>
+<button onclick="pauseMusic()">Pause</button>
+</div>
+
+<audio id="music" src="music.mp3"></audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
